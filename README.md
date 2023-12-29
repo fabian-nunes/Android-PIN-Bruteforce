@@ -8,7 +8,7 @@ There are two scripts one for PINs with 4 or 5 digits and one for PINs with 6 to
 - DigiSpark (ATTiny85)
 - OTG Cable (Micro USB or USB-C depending on your phone)
 - Android Device (Tested on a Samsung Galaxy A40)
-- Android USB Debugging enabled
+- Device with OTG capabilities (some really old android dont have it)
 - Arduino IDE
 - DigiSpark Arduino Library [Download here](https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json)
 - Digistump USB Drivers [Download here](https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip)
