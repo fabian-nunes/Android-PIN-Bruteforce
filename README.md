@@ -43,7 +43,8 @@ Also, I would recommend using a phone that you don't care about, as this could s
 
 ## Considerations
 
-As you might expect this is not the most efficient way to bruteforce a PIN. With the timeout feature on Android devices, you can only try a PIN every 30 seconds. This means that it would take 1.5 days to bruteforce a 4 digit PIN and 12 days to bruteforce a 6 digit PIN. This is assuming that the PIN is correct and the phone unlocks. If the PIN is incorrect, the phone will lock for 30 seconds and the script will have to wait for the timeout to finish before trying the next PIN. This means that it would take 16 hours to bruteforce a 4 digit PIN and 128 hours to bruteforce a 6 digit PIN.
+As you might expect this is not the most efficient way to bruteforce a PIN. With the timeout feature on Android devices, you can only try a PIN every 30 seconds. This means that it would take 16 hours to bruteforce a 4 digit PIN and 2 days to bruteforce a 6 digit PIN. This is assuming that the PIN is correct and the phone unlocks. 
+
 However this should be seen as a last resort such as: Google Find My Device, ADB, IMEI Unlock, etc. If you have access to any of these methods, you should use them instead.
 There is a reason why Android Devices tell you that if you forget your PIN, you should factory reset your phone. This is because it is very difficult to bypass the PIN without the correct PIN or access to the phone.
 
