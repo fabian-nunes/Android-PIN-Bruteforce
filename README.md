@@ -8,6 +8,11 @@ There are two scripts one for PINs with 4 or 5 digits and one for PINs with 6 to
 After developing the scripts I tought that there might have been people that probably dont want to spend money on a DigiSpark or dont have one lying around. So I made a script that uses ADB to bruteforce the PIN.
 The process is exactly the same, the script uses ADB to input the code automatically. The only difference is that you need to have ADB installed on your computer and have USB Debugging enabled on the Android device.
 
+```bash
+python3 AdbBruteforce.py -n [4 to 9]
+```
+
+
 ## Requirements
 
 - DigiSpark (ATTiny85)
